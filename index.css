@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+  --accent: #3b82f6;
+  --accent-soft: #1e3a8a;
+  --space-scale: 1;
+}
+
+html[data-animations="off"] *,
+html[data-animations="off"] *::before,
+html[data-animations="off"] *::after {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Accent-driven utilities — recolor with the accent setting */
+.accent-bg {
+  background-color: var(--accent) !important;
+  color: #fff !important;
+}
+.accent-bg:hover {
+  filter: brightness(0.9);
+}
+.accent-text {
+  color: var(--accent) !important;
+}
+.accent-border-strong {
+  border-color: var(--accent) !important;
+}
+.accent-gradient {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--accent),
+    var(--accent-soft)
+  ) !important;
+}
+
+/* Radius follows --radius */
+.rounded-lg {
+  border-radius: calc(var(--radius) * 0.6) !important;
+}
+.rounded-xl {
+  border-radius: var(--radius) !important;
+}
+.rounded-2xl {
+  border-radius: calc(var(--radius) * 1.5) !important;
+}
+[data-slot="card"] {
+  border-radius: calc(var(--radius) * 1.25) !important;
+}
+
+/* Density follows --space-scale */
+[data-slot="card-content"] {
+  padding: calc(1.5rem * var(--space-scale)) !important;
+}
+[data-slot="card-header"] {
+  padding: calc(1.5rem * var(--space-scale)) !important;
+  padding-bottom: 0 !important;
+}
+
+/* Switch + Slider follow the accent */
+[data-slot="switch"][data-state="checked"],
+button[role="switch"][data-state="checked"] {
+  background-color: var(--accent) !important;
+}
+[data-slot="slider-range"] {
+  background-color: var(--accent) !important;
+}
+[data-slot="slider-thumb"] {
+  border-color: var(--accent) !important;
+  background-color: var(--accent) !important;
+}
+
+/* Light theme repaint */
+html.light body {
+  background: #eef2f7;
+  color: #0f172a;
+}
+html.light .bg-slate-950,
+html.light .bg-slate-950\/70,
+html.light .bg-slate-900,
+html.light .bg-slate-900\/70,
+html.light .bg-slate-900\/60 {
+  background-color: #ffffff !important;
+}
+html.light .bg-blue-950\/30,
+html.light .bg-blue-950\/40,
+html.light .bg-blue-950\/20 {
+  background-color: #eff6ff !important;
+}
+html.light .bg-blue-900\/40,
+html.light .bg-blue-900\/50 {
+  background-color: #dbeafe !important;
+}
+html.light .text-white,
+html.light .text-blue-100,
+html.light .text-blue-200 {
+  color: #0f172a !important;
+}
+html.light .text-blue-300,
+html.light .text-blue-300\/80,
+html.light .text-blue-400\/70,
+html.light .text-blue-400\/60,
+html.light .text-blue-400\/50 {
+  color: #475569 !important;
+}
+html.light .border-blue-900\/50,
+html.light .border-blue-950,
+html.light .border-blue-900\/60 {
+  border-color: #cbd5e1 !important;
+}
+html.light input,
+html.light textarea {
+  color: #0f172a !important;
+}

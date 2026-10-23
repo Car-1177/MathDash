@@ -1,0 +1,2 @@
+case "about":
+  return <About />;

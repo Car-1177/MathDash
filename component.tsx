@@ -1,0 +1,1 @@
+{ id: "about", label: "About", group: "Reference" }
