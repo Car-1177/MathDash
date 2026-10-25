@@ -13,3 +13,5 @@ Core Features
 • Centralized Dashboard Layout: A unified grid interface that organizes core workspace utilities into clean, easily readable card blocks.
 • Responsive Computation Tools: Accessible calculation and formulas modules designed for straightforward student data input and real-time feedback.
 • Clean Design Language: A distraction-free layout optimized to help students focus entirely on mathematical processing and problem-solving without excessive visual clutter.
+
+MathDash Updates Every Month
