@@ -25,29 +25,21 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 
 
 • Current Features
-
-
 	• Arcade Games Portal - In-dashboard launcher grid featuring classic mind puzzles like 2048, Sudoku, and Tetris to take quick brain breaks.
-
-	
-	• Workspace Dashboard Grid - A modular dashboard interface for arranging math widgets and layout blocks efficiently.
-
-	
+	• Workspace Dashboard Grid - A modular dashboard interface for arranging math widgets and layout blocks efficiently.	
 	• Persistent Preferences - Automatically saves basic workspace interface settings directly to the user's browser.
 
 	
 • Upcoming Features
-
-
 	• FMS Cloud Media Hub - Clean, responsive YouTube video lesson search and video integration.
-
-	
 	• Study Audio Suite - Integrated distraction-free Spotify web players loaded with focus tracks and lo-fi beats.
 	• Math Coin Economy - An automated student reward system tracking experience points (XP) and milestone coins.
 	• Cosmetic Frame Shop - A spendable rewards catalog where users can unlock custom profile avatars and border layouts.
 	• Channel Follower System - One-click bookmarks to track favorite educational math channels directly in the workspace.
+	
 
 ## MathDashLite (PyScript Edition)
+
 
 • Platform Context - An ultra-fast, serverless, client-side math ecosystem powered entirely by Python directly inside your browser.
 • Current Features
@@ -61,6 +53,7 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 	• Sequence Generator Matrix - Tabulated sequence outputs rendering arithmetic and geometric intervals instantly.
 
 ## Setup and Installation
+
 
 • Running MathDash Locally
 	• Clone Repository - Run git clone https://github.com to pull the core application codebase.
