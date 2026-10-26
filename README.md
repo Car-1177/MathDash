@@ -71,6 +71,7 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 
 
 • Running MathDash Locally
+<br><br>
 	• Clone Repository - Run git clone https://github.com to pull the core application codebase.
 	<br>
 	• Install Dependencies - Execute npm install inside the project root folder to provision frontend package modules.
@@ -79,7 +80,7 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 	<br>
 	<br>
 • Running MathDashLite Locally
-<br>
+<br><br>
 	• Directory Context - Navigate into your specific static directory structure hosting the light modules.
 	<br>
 	• Local Server Core - Start an isolated background serving port using Python's core utilities: python -m http.server 8000.
