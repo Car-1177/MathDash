@@ -77,6 +77,7 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 	<br>
 	• Launch Dev Server - Run npm run dev to start the live reloading workspace compilation engine locally.
 	<br>
+	<br>
 • Running MathDashLite Locally
 <br>
 	• Directory Context - Navigate into your specific static directory structure hosting the light modules.
