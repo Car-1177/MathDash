@@ -69,7 +69,6 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 
 ## Setup and Installation
 
-
 ## Running MathDash Locally
 <br>
 	• Clone Repository - Run git clone https://github.com to pull the core application codebase.
@@ -79,6 +78,7 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 	• Launch Dev Server - Run npm run dev to start the live reloading workspace compilation engine locally.
 	<br>
 	<br>
+
 ## Running MathDashLite Locally
 <br>
 	• Directory Context - Navigate into your specific static directory structure hosting the light modules.
