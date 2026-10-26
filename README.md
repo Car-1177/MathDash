@@ -3,6 +3,7 @@
 
 Welcome to MathDash, a comprehensive, distraction-free workspace designed for students and educators. This platform brings together interactive calculus tools, graphing references, step-by-step algebra solvers, and gamified student hubs in one unified dashboard.
 
+
 ## Live Deployments
 
 • Main Dashboard - Available at 
