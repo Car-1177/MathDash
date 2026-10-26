@@ -5,8 +5,10 @@ Welcome to MathDash, a comprehensive, distraction-free workspace designed for st
 
 ## Live Deployments
 
-• Main Dashboard - Available at [mathdash-1177.vercel.app]
-• MathDashLite - Streamlined PyScript edition available at [car1177_.pyscriptapps.com/quiet-term/latest/]
+• Main Dashboard - Available at 
+[mathdash-1177.vercel.app]
+• MathDashLite - Streamlined PyScript edition available at 
+[car1177_.pyscriptapps.com/quiet-term/latest/]
 
 ## Development Cycle
 
