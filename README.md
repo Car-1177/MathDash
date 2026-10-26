@@ -1,39 +1,52 @@
-# MathDash
 
-MathDash is a minimalist, responsive math utility hub and student workspace hosted live at mathdash-1177.vercel.app. Designed to provide a streamlined, distraction-free environment for handling mathematical operations, this web application centralizes core calculators and math tools into a single fluid interface.
+## MathDash & MathDashLite
 
-Technical Overview
+Welcome to MathDash, a comprehensive, distraction-free workspace designed for students and educators. This platform brings together interactive calculus tools, graphing references, step-by-step algebra solvers, and gamified student hubs in one unified dashboard.
 
-• Deployment Infrastructure: Hosted on Vercel with automated continuous deployment pipelines tied directly to the production branch.
-• UI/UX Framework: Built utilizing a clean grid engine styled with Tailwind CSS to ensure seamless compatibility across mobile devices, tablets, and desktop monitors.
-• Architecture: Focused on lightweight frontend performance, ensuring instantaneous tool loading and calculations.
+## Live Deployments
 
-Core Features
+• Main Dashboard - Available at mathdash-1177.vercel.app
+• MathDashLite - Streamlined PyScript edition available at https://car1177_
 
-• Centralized Dashboard Layout: A unified grid interface that organizes core workspace utilities into clean, easily readable card blocks.
-• Responsive Computation Tools: Accessible calculation and formulas modules designed for straightforward student data input and real-time feedback.
-• Clean Design Language: A distraction-free layout optimized to help students focus entirely on mathematical processing and problem-solving without excessive visual clutter.
+## Development Cycle
 
-Planned Features
+• Monthly Commitment - Updates Every Month!
+• Schedule - Consistently rolling out optimization patches, tool updates, and fresh study features on the 1st of every month.
 
-A comprehensive suite of gamification modules, interactive multimedia tools, and study aids modeled after the FreeMathSchool (FMS) ecosystem is scheduled for integration:
+## MathDash (Main Platform)
 
-Gamification & User Economy
+• Platform Context - The full-featured workspace built for maximum multitasking, study sessions, and visual feedback loops.
+• Current Features
+	• Arcade Games Portal - In-dashboard launcher grid featuring classic mind puzzles like 2048, Sudoku, and Tetris to take quick brain breaks.
+	• Workspace Dashboard Grid - A modular dashboard interface for arranging math widgets and layout blocks efficiently.
+	• Persistent Preferences - Automatically saves basic workspace interface settings directly to the user's browser.
+• Upcoming Features
+	• FMS Cloud Media Hub - Clean, responsive YouTube video lesson search and video integration.
+	• Study Audio Suite - Integrated distraction-free Spotify web players loaded with focus tracks and lo-fi beats.
+	• Math Coin Economy - An automated student reward system tracking experience points (XP) and milestone coins.
+	• Cosmetic Frame Shop - A spendable rewards catalog where users can unlock custom profile avatars and border layouts.
+	• Channel Follower System - One-click bookmarks to track favorite educational math channels directly in the workspace.
 
-• Math Coins System: A persistent currency engine that awards digital coins to students for interacting with math tools, reaching study benchmarks, and completing arcade milestones.
-• Level Progression: A real-time profile widget displaying user experience points (XP), leveling progress bars, and custom student status tracking.
-• Rewards Store: An interactive catalog interface where users exchange their earned Math Coins for cosmetic assets, including custom-colored avatar profile frames, titles, and site-wide background themes.
+## MathDashLite (PyScript Edition)
 
-Integrated Media Hub
+• Platform Context - An ultra-fast, serverless, client-side math ecosystem powered entirely by Python directly inside your browser.
+• Current Features
+	• Step-by-Step Solver - Input linear expressions and watch the system parse and generate mechanical algebraic workflows.
+	• Interactive Unit Circle - Click target angles to map active trigonometric layouts using dynamic vector rendering.
+	• 2x2 Matrix Systems - Rapid algebraic linear systems solution engine utilizing instant substitution processing matrices.
+	• Print Optimization - Formatted vector stylesheets that clean the workspace layout seamlessly for physical homework or PDF exports.
+• Upcoming Features
+	• Algorithmic Input Parser - Deep native variable handling to calculate arbitrary variable inputs programmatically.
+	• Dynamic Number Line - Fully visualized solution regions displaying custom algebraic ranges and graph indicators on a coordinate axis.
+	• Sequence Generator Matrix - Tabulated sequence outputs rendering arithmetic and geometric intervals instantly.
 
-• YouTube Resource Client: A media player layout featuring an address search bar to paste video URLs or search keys, allowing video viewing directly inside the application workspace.
-• Resource Directory Sidebar: A local sidebar panel using browser storage to let students bookmark vital channels, playlists, or individual video lessons for instant access.
-• Ambient Audio Interface: Integrated media widgets pre-loaded with curated study music playlists, including focus audio, lofi beats, and background ambient tracks.
+## Setup and Installation
 
-Arcade Portal
-
-• Integrated Game Suite: A dedicated tab containing a clean grid interface for lightweight, distraction-free web micro-games such as 2048, Sudoku, and Tetris.
-• Non-Disruptive Interface: An overlay modal system designed to launch games within insulated frames, ensuring students can take short study breaks without losing active inputs or calculation histories on the main dashboard.
-
-
-MathDash Updates Every Month
+• Running MathDash Locally
+	• Clone Repository - Run git clone https://github.com to pull the core application codebase.
+	• Install Dependencies - Execute npm install inside the project root folder to provision frontend package modules.
+	• Launch Dev Server - Run npm run dev to start the live reloading workspace compilation engine locally.
+• Running MathDashLite Locally
+	• Directory Context - Navigate into your specific static directory structure hosting the light modules.
+	• Local Server Core - Start an isolated background serving port using Python's core utilities: python -m http.server 8000.
+	• Browser Access - Open your preferred terminal browser engine and navigate to http://localhost:8000 to review client-side PyScript calculations.
